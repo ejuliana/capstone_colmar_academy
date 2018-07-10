@@ -1,4 +1,4 @@
-/* universal styles */
+/* Universal Styles */
 
 html {
   font-size: 16px;
@@ -20,7 +20,7 @@ a {
   text-align: left;
 }
 
-/* header */
+/* hHader */
 
 header {
   display: flex;
@@ -83,15 +83,13 @@ nav li:hover {
   color: #cc0033;
 }
 
-/* media query for header content */
+/* Media Query - Header */
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
   header .mobile {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -101,10 +99,8 @@ nav li:hover {
 }
 
 @media only screen and (max-width: 480px), (max-width: 768px) {
-
   header {
-  border-bottom: 2px solid #cc0033;
-
+    border-bottom: 2px solid #cc0033;
   }
 
   header .mobile ul {
@@ -134,11 +130,10 @@ nav li:hover {
   header .nav-content {
     display: none;
   }
-
 }
 
 
-/* banner */
+/* Banner */
 
 .container {
   background-color: #669999;
@@ -149,6 +144,7 @@ nav li:hover {
   flex-direction: row;
   align-items: center;
 }
+
 .banner img {
   margin: 2rem;
   padding-top: 4rem;
@@ -195,11 +191,10 @@ nav li:hover {
   border: 2px solid #000;
 }
 
-/* media query for banner content */
+/* Media Query - Banner */
 
 
 @media only screen and (max-width: 480px), (max-width: 768px) {
-
   .banner {
     display: flex;
     flex-direction: column;
@@ -223,15 +218,13 @@ nav li:hover {
     background-color: #000;
   }
 
-  .healine-container p:hover {
+  .headline-container p:hover {
     background-color: #cc0033;
     border: 2px solid #000;
   }
-
 }
 
-
-/* info content */
+/* Information content */
 
 .main.container {
   padding: 2rem 0rem;
@@ -262,8 +255,7 @@ nav li:hover {
   margin: auto;
 }
 
-
-/* info content to right */
+/* Information - Right */
 
 .main.container {
   max-width: 100%;
@@ -310,7 +302,6 @@ nav li:hover {
   padding: 0.5rem 0rem;
 }
 
-
 .info-content:hover {
   background-color: #669999;
 }
@@ -321,11 +312,10 @@ nav li:hover {
 }
 
 
-/* media query info content */
+/* Media Query - Information */
 
 
 @media only screen and (max-width: 480px), (max-width: 780px) {
-
   .main-info {
     display: none;
   }
@@ -358,24 +348,15 @@ nav li:hover {
     padding-bottom: .5rem;
     text-align: left;
   }
-
 }
 
 @media only screen and (min-width: 768px), (max-width: 1024px) and (orientation: landscape) {
-
   .info-content .mobile img {
     display: none;
   }
-
 }
 
-/* @media only screen and (min-width: 1024px) {
-  .info-content .mobile {
-    display: none;
-  }
-} */
-
-/* course selections */
+/* Course Selections */
 
 main {
   background-color: #669999;
@@ -416,11 +397,9 @@ main h1 {
   margin: auto;
 }
 
-
 .courses h2 {
   font-weight: 500;
   background-color: #fff;
-  /* padding: 1rem .25rem 1rem .25rem; */
   width: 100%;
   margin: auto;
   padding-top: .5rem;
@@ -441,26 +420,19 @@ main h1 {
   font-weight: 300;
 }
 
-
 .courses:hover {
   background-color: #cc0033;
-  /* margin: .15rem; */
 }
-
 
 /* media queries for course content */
 
-
 @media only screen and (min-width: 768px), (max-width: 1024px) and (orientation: landscape) {
-
   .course-tabs {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 480px), (max-width: 768px) {
-
   main {
     max-width: 100%;
     margin: auto;
@@ -497,7 +469,7 @@ main h1 {
   }
 }
 
-/* thesis section */
+/* Thesis section */
 
 .thesis.container {
   background-color: #fff;
@@ -536,7 +508,6 @@ main h1 {
 .banner-info video {
   width: 100%;
   margin: auto;
-  /* padding: 0rem 1.5rem; */
 }
 
 .banner-info h2 {
@@ -565,7 +536,6 @@ main h1 {
   height: auto;
   width: 35%;
   margin: auto;
-  /* padding: 1.5rem 2rem; */
 }
 
 .exhibit-info {
@@ -593,7 +563,6 @@ main h1 {
 /* media queries for thesis content */
 
 @media only screen and (max-width: 480px), (max-width: 780px) {
-
   .exhibit-container {
     display: none;
   }
@@ -618,10 +587,9 @@ main h1 {
   .banner-info p {
     display: none;
   }
-
 }
 
-/* footer */
+/* Footer */
 
 footer .container {
   background-color: #fff;
@@ -651,7 +619,6 @@ footer .container {
 /* media queries for footer */
 
 @media only screen and (max-width: 480px), (max-width: 780px) {
-
   .nav-content {
     display: none;
   }
@@ -673,5 +640,4 @@ footer .container {
     padding: 1rem 0rem;
     text-align: center;
   }
-
 }
